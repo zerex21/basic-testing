@@ -50,7 +50,7 @@ describe('simpleCalculator tests', () => {
     const input = {
       a: 2,
       b: 2,
-      action: Action.Multiply,
+      action: Action.Exponentiate,
     };
     const result = simpleCalculator(input);
     expect(result).toBe(4);
